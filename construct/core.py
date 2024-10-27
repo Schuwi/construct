@@ -6,7 +6,7 @@ from struct import error as PackerError
 from io import BytesIO, StringIO
 from binascii import hexlify, unhexlify
 import sys
-import collections
+import collections.abc as collections
 
 from construct.lib import *
 
